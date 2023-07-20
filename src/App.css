@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.Title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #0E2662;
+}
+
+.Note {
+  color: #C2C2C2;
+  font-weight: bold;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.content-container {
+  position: relative;
+  display: flex;
+  margin-left: 10%;
+}
+
+.plan-details-container {
+  flex: 3;
+  margin-left: 20px;
+}
+
+.back-link {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  color: #C2C2C2;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back-link svg {
+  margin-right: 5px;
+}
+
+.action-button {
+  position: absolute;
+  bottom: -5%;
+  width:15%;
+  right: 130px;
+}
